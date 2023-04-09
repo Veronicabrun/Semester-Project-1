@@ -1,0 +1,271 @@
+html,
+body {
+  height: 100vh;
+  margin: 0%;
+  background-color: #f3f4f4;
+  
+
+}
+
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #ffffff;
+}
+
+/* Home header */
+.menu-checkbox, .hamburger-icon {
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    color: #01a1b1;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 2em;
+    margin-top: 10px;
+}
+ 
+.nav, ul {
+    display: flex; 
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00262D;
+    font-weight: bold;
+
+}
+
+.nav-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    border-radius: 30px;
+    width: 10%;
+    padding: 5px 5px;
+    margin-left: 800px;
+    height: 20px;
+    border-color: #01a1b1;
+    font-size: 1em;
+}
+
+.cta_nav {
+    text-decoration: none;
+    background-color: #fb9b50;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 40px;
+}
+
+.banner-img-container {
+    position: relative;
+    background-image: url(../images/home-page-dino.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 70vh;
+}
+
+.banner-container {
+    margin: 0 auto;
+    padding: 40px;
+    position: absolute;
+    top: 100px;  
+}
+
+.open-text {
+    display: flex;
+    color:#ffffff;
+    font-size: 1,8rem;
+    line-height: 1,5rem;
+    margin-top: 5px;
+    }
+
+.banner-lare-text {
+    font-size: 3rem;
+    color:#ffffff;
+    text-transform: uppercase;
+    line-height: 1,5rem;
+    margin-bottom: 20px;
+  
+}
+
+.banner-text {
+   color:#ffffff;
+   font-size: 1,6rem;
+   line-height: 1,5rem;
+   margin-bottom: 40px;
+ 
+}
+
+.cta-banner {
+    color: #01a1b1;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+/* Home main */
+.explore {
+  text-align: center; 
+  font-size: 32px;
+} 
+
+.info-container {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   padding: 20px 70px;
+   justify-content: center;
+}
+
+.info-card {
+    text-align: center;
+    flex: 1;
+    background-color: #ffffff;
+    border-top: 10px solid #fb9b50;
+    }
+
+.text_card {
+    font-size: 22px;  
+}
+
+.line_card {
+    width: 60%;
+    display: block; 
+    border-top: 1px solid;
+    margin-bottom: 30px;
+ }
+
+.info_image {
+   width: 100%;
+   height: 360px;
+   object-fit: cover;
+}
+/* welcome container main */
+.welcome-container {
+    max-width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+    font-size: 18px;
+    background-color: #ffff; 
+    height: 500px;
+}
+
+.left-container>h4 {
+    font-size: 36px;
+    font-weight: bold;
+    color:#fb9b50; 
+    margin-top: 10px;  
+}
+/* fix the text so it doesn't overflow when the site is scaled down */
+.left-container>p {
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-us_image {
+   display: flex;
+   flex: 1;
+}
+
+
+/* info-container main */
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.information-card {
+
+  
+}
+
+/* gallery main */
+.gallery {
+text-align: center;
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.line-gallery {
+width: 70%;
+display: block;
+border-top: 1px solid;
+margin-bottom: 5px;
+}
+
+.gallery-container {
+   display: flex;
+   justify-content: center; 
+   flex-wrap: wrap;
+   padding: 30px 30px;
+}
+
+.gallery-img {
+   flex: 1;
+   padding: 15px 15px;
+}
+
+.gallery-img>img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* footer */
+.footer-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: #ffff;
+}
+
+.help {
+
+}
+
+.follow-us {
+
+}
+
+.visit-us {
+
+}
+
+.line-footer {
+
+}
