@@ -1,10 +1,8 @@
 html,
 body {
   height: 100vh;
-  margin: 0%;
+  margin: 0;
   background-color: #f3f4f4;
-  
-
 }
 
 body {
@@ -57,6 +55,16 @@ nav a {
     height: 20px;
     border-color: #01a1b1;
     font-size: 1em;
+}
+
+.search-in {
+    border-radius: 30px;
+    width: 10%;
+    padding: 5px 5px;
+    margin-left: 800px;
+    height: 20px;
+    border-color: #01a1b1;
+    font-size: 1em;   
 }
 
 .cta_nav {
@@ -122,6 +130,23 @@ nav a {
 }
 
 /* Home main */
+.events-container {
+    display: flex;
+}
+
+.events-info {
+    flex: 1;
+}
+
+.cta_events {
+    color: #ffffff;
+    background-color: #fb9b50;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;   
+}
+
 .explore {
   text-align: center; 
   font-size: 32px;
@@ -206,9 +231,11 @@ nav a {
 .information-container {
     display: flex;
     flex-direction: row;
-
-    margin-top: 100px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     justify-content: space-around;
+    background-color: #ffffff;
 }
 
 .information-card {
@@ -248,23 +275,43 @@ margin-bottom: 5px;
 }
 
 /* footer */
-.footer-container{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-background-color: #ffff;
-}
+.footer-container {
+    display: grid;
+    padding-top: 30px;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 10em;
+    background-color: #ffff;
+    color: #00262D;
+ }
+
+
+     
+ .help>ul {
+    display: block;
+
+ }
 
 .help {
+    color: #00262D;
 
-}
+   
+ }
 
 .follow-us {
+
 
 }
 
 .visit-us {
 
+   
 }
+
+.icon  {
+   text-decoration: none;
+}
+
 
 .line-footer {
 
