@@ -238,7 +238,8 @@ nav a {
 .gallery-heading,
 .events-heading,
 .exhibition-heading,
-.contact-us-heading  {
+.contact-us-heading,
+.visit-heading  {
 text-align: center;
 font-size: 32px;
 margin-bottom: 30px;
@@ -248,7 +249,8 @@ margin-bottom: 30px;
 .line-events-heading,
 .line-exhibition,
 .line-explore,
-.line-contact {
+.line-contact,
+.line-visit-heading {
 width: 60%;
 display: block;
 border-top: 1px solid;
@@ -293,7 +295,6 @@ margin-bottom: 5px;
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .exhibition-image,
@@ -335,6 +336,21 @@ margin-bottom: 5px;
     margin-top: 1px;
     color: #01a1b1;  
 }
+ 
+/* Visit */
+.visit-info {
+    display: flex;
+}
+
+.visit-image {
+    display: flex;
+
+}
+
+
+
+
+
 
 /* Contact */
 .contact-info-conteiner {
