@@ -41,6 +41,10 @@ nav a {
 
 }
 
+.active {
+    text-decoration: underline;
+}
+
 .nav-bottom {
     display: flex;
     align-items: center;
@@ -57,17 +61,7 @@ nav a {
     font-size: 1em;
 }
 
-.search-in {
-    border-radius: 30px;
-    width: 10%;
-    padding: 5px 5px;
-    margin-left: 800px;
-    height: 20px;
-    border-color: #01a1b1;
-    font-size: 1em;   
-}
-
-.cta_nav {
+.cta_nav, {
     text-decoration: none;
     background-color: #fb9b50;
     color:#ffffff;
@@ -108,8 +102,7 @@ nav a {
     color:#ffffff;
     text-transform: uppercase;
     line-height: 1,5rem;
-    margin-bottom: 20px;
-  
+    margin-bottom: 20px; 
 }
 
 .banner-text {
@@ -117,7 +110,6 @@ nav a {
    font-size: 1,6rem;
    line-height: 1,5rem;
    margin-bottom: 40px;
- 
 }
 
 .cta-banner {
@@ -165,6 +157,7 @@ nav a {
     flex: 1;
     background-color: #ffffff;
     border-top: 10px solid #fb9b50;
+
     }
 
 .text_card {
@@ -183,7 +176,8 @@ nav a {
    height: 360px;
    object-fit: cover;
 }
-/* welcome container main */
+
+/* Welcome container main */
 .welcome-container {
     max-width: 100%;
     display: flex;
@@ -200,7 +194,7 @@ nav a {
     justify-content: center;
     padding: 20px 50px 20px 50px;
     font-size: 18px;
-    background-color: #ffff; 
+    background-color: #ffffff;
     height: 500px;
 }
 
@@ -225,9 +219,7 @@ nav a {
    flex: 1;
 }
 
-
-/* info-container main */
-
+/* Info-container main */
 .information-container {
     display: flex;
     flex-direction: row;
@@ -239,19 +231,25 @@ nav a {
 }
 
 .information-card {
-
-  
+ 
 }
 
-/* gallery main */
-.gallery {
+/* Gallery main */
+.gallery-heading,
+.events-heading,
+.exhibition-heading,
+.contact-us-heading  {
 text-align: center;
 font-size: 32px;
 margin-bottom: 30px;
 }
 
-.line-gallery {
-width: 70%;
+.line-gallery,
+.line-events-heading,
+.line-exhibition,
+.line-explore,
+.line-contact {
+width: 60%;
 display: block;
 border-top: 1px solid;
 margin-bottom: 5px;
@@ -274,7 +272,128 @@ margin-bottom: 5px;
     margin-top: 40px;
 }
 
-/* footer */
+/* Events main */
+.events_heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.line-events {
+    width: 40%;
+    display: block;
+    border-top: 1px solid;
+    margin-bottom: 5px; 
+}
+
+/* Exhibition spaces, Explore main */
+.exhibition-container,
+.explore-container {
+    max-width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.exhibition-image,
+.explore-image {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+.exhibition_image,
+.explore_image {
+    display: flex;
+    flex: 1;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.exhibition-text,
+.explore-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+    font-size: 18px;
+    background-color: #ffffff;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.line-exhibition-heading,
+.line-explore-heading {
+    width: 40%;
+    display: block;
+    border-top: 4px solid;
+    margin-bottom: 5px; 
+    margin-top: 1px;
+    color: #01a1b1;  
+}
+
+/* Contact */
+.contact-info-conteiner {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-info-content {
+flex: 1;
+padding: 20px;
+}
+
+.contact-info-content>p {
+    marign-left: 10px;
+}
+
+.contact-us-container {
+display: flex;
+flex-direction: column;
+width: 100%;
+line-height: 1,8;
+padding: 10px;
+}
+
+.contact-img-container {
+    flex: 1;
+}
+
+.contact-image {
+width: 100%;
+}
+
+.contact-input-style {
+    height: 150px;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+.cta_send {
+   margin-top: 15px; 
+   border-radius: 20px;
+   color: #ffffff;
+   background-color: #fb9b50;
+   height: 40px;
+   width: 110px;
+}
+
+
+
+
+
+
+/* Footer */
 .footer-container {
     display: grid;
     padding-top: 30px;
@@ -284,18 +403,13 @@ margin-bottom: 5px;
     background-color: #ffff;
     color: #00262D;
  }
-
-
-     
+    
  .help>ul {
     display: block;
-
  }
 
 .help {
-    color: #00262D;
-
-   
+    color: #00262D;  
  }
 
 .follow-us {
@@ -311,7 +425,6 @@ margin-bottom: 5px;
 .icon  {
    text-decoration: none;
 }
-
 
 .line-footer {
 
