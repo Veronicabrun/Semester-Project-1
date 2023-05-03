@@ -717,6 +717,7 @@ input, textarea, select {
     }
 }
 
+
 @media(max-width: 815px) {
     .cta_nav {
         margin-left: 30px;
@@ -735,6 +736,10 @@ input, textarea, select {
         margin-left: 30px;
         gap: 30px;
     }
+
+    .visit_image {
+        height: 500px;
+   }
 }
 
 @media(max-width: 699px) {
@@ -751,7 +756,7 @@ input, textarea, select {
     .nav-ul {
         flex-wrap: wrap;
         display: block;
-        background-color:#00262D;
+        background-color:#01a1b1;
         text-align: center;
         margin-bottom: 0; 
     }
@@ -804,8 +809,13 @@ input, textarea, select {
         display: flex;
         flex-direction: column;
         max-width: 400px;
-  
     }
+
+    .events-text,    
+    .explore-text,
+    .exhibition-text {
+        font-size: 16px;
+   }
 
     .line-exhibition-container,
     .line-explore-container {
@@ -826,11 +836,15 @@ input, textarea, select {
 }
 
 @media(max-width: 538px) {
+    .circle-container {
+        width: 250px;
+        height: 250px;  
+    }
     .welcome-heading {
-        font-size: 22px;
+        font-size: 24px;
     }
     .welcome-small-text {
-        font-size: 18px;
+        font-size: 16px;
         }
     }
     
@@ -846,7 +860,18 @@ input, textarea, select {
    }
 
    .visit_image {
-  
+        height: 400px;
+   }
+
+   .fa-users, 
+   .fa-user, 
+   .fa-utensils, 
+   .fa-palette {
+       font-size-18px;
+   }
+
+   .information-card>p {
+    font-size: 16px;
    }
      
 }
