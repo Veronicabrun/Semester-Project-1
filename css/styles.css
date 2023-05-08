@@ -50,7 +50,7 @@ nav a {
 
 .active {
     text-decoration: underline;
-    color: #fb9b50;
+    color: #E67214;
    
 }
 
@@ -73,7 +73,7 @@ nav a {
 
 .cta_nav {
     text-decoration: none;
-    background-color: #fb9b50;
+    background-color: #E67214;
     color:#ffffff;
     font-size: 18px;
     font-weight: bold;
@@ -81,6 +81,7 @@ nav a {
     padding: 5px 25px 5px 25px;
     margin-right: 70px;
     margin-bottom: 15px;
+    transform: 0.3s;
 }
 
 .banner-img-container {
@@ -130,29 +131,25 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 20px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 25px 10px 25px;
     font-weight: bold;
 }
 
 /* Home main */
 .events-container {
-max-width: 100%;
-min-height: 500px;
+    max-width: 1500px;
+    min-height: 500px;
     display: flex;
     margin: 0 auto;
     background-color: #ffffff;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
-
+    justify-content: center;
+    gap: 50px;
 }
 
 .circle-container {
-    display: flex;
-    flex-direction: column;
     padding: 20px;
     border-radius: 50%;
     width: 300px;
@@ -162,8 +159,10 @@ min-height: 500px;
     margin-bottom: 30px;
     text-align: center;
     position: relative;
-    margin-right: 120px;
+    margin-right: 60px;
+    margin-left: 60px;
     margin-top: 40px;
+    flex: 0 1 300px;
 
 }
 
@@ -173,7 +172,6 @@ min-height: 500px;
     left: 50%;
     transform: translate(-50%,-50%);
     margin: 0px;
-    
 }
 
 .circle-text>h1> {
@@ -186,11 +184,9 @@ min-height: 500px;
 
 .events-info,
 .events-text {
-    flex: 1;
+    flex: 0 1 400px;
     margin-top: 60px;
-    text-align: center;
     font-size: 19px;
-    margin-bottom: 50px;
     font-weight: 900px;
   
 }
@@ -202,7 +198,7 @@ min-height: 500px;
 }
 
 .events-info-line {
-    width: 80%;
+    width: 100%;
     display: block;
     border-top: 1px solid;
     margin-bottom: 5px;
@@ -211,14 +207,20 @@ min-height: 500px;
 
 .cta_events {
     color: #ffffff;
-    background-color: #fb9b50;
+    background-color: #E67214;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 20px;
-    padding: 10px 30px 10px 30px; 
+    padding: 5px 25px 5px 25px; 
     font-weight: bold;
     display:inline-block;
     margin-top: 15px;
+    transition: 0.3s;
+}
+
+.cta_events:hover,
+.info-card:hover {
+   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .explore {
@@ -238,7 +240,11 @@ min-height: 500px;
     text-align: center;
     flex: 1;
     background-color: #ffffff;
-    border-top: 10px solid #fb9b50;
+    border-top: 10px solid #E67214;
+}
+
+.info-card {
+    transition: 0.3s;
 }
 
 .text_card {
@@ -289,19 +295,21 @@ min-height: 500px;
 .left-container>h5 {
     font-size: 36px;
     font-weight: bold;
-    color:#fb9b50; 
+    color:#E67214; 
     margin-top: 10px;  
 }
 
 .welcome-text {
     font-size: 36px;
     font-weight: bold;
-    color:#fb9b50; 
+    color:#E67214; 
     margin-top: 10px;   
 }
 
 .welcome-small-text {
-    font-size: 24px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .welcome-heading {
@@ -313,7 +321,7 @@ min-height: 500px;
     display: flex;
     flex-direction: column;
     flex: 1;
-    max-height: 600px;
+max-height: 600px;
 }
 
 .about-us_image {
@@ -365,6 +373,7 @@ min-height: 500px;
 .visit-heading  {
     text-align: center;
     font-size: 32px;
+    margin-bottom: 0px;
 }
 
 .line-events-heading,
@@ -372,14 +381,14 @@ min-height: 500px;
 .line-explore-heading,
 .line-contact-heading,
 .line-visit-heading {
-    width: 60%;
+    width: 40%;
     display: block;
     border-top: 1px solid;
     margin-bottom: 30px;   
 }
 
 .line-gallery-heading {
-    width: 60%;
+    width: 40%;
     display: block;
     border-top: 1px solid;
     margin-bottom: 5px;
@@ -408,16 +417,16 @@ min-height: 500px;
 
 /* Events main */
 .events_heading {
-    text-align: center;
     font-size: 26px;
     margin-bottom: 10px;
 }
 
 .line-events {
-    width: 70%;
+    width: 93%;
     display: block;
     border-top: 2px solid;
     color: #01a1b1;
+    margin-left: 0;
 }
 
 /* Exhibition spaces, Explore main */
@@ -454,7 +463,7 @@ min-height: 500px;
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
-    text-align: center;
+  
     justify-content: center;
     padding: 40px 50px 40px 50px;
     font-size: 18px;
@@ -475,6 +484,7 @@ min-height: 500px;
     border-top: 4px solid;
     margin-bottom: 5px; 
     margin-top: 1px;
+    margin-left: 0;
     color: #01a1b1;  
 }
 
@@ -495,24 +505,33 @@ min-height: 500px;
 }
 
 .cta-back {
-    color:#fb9b50;
+    color:#E67214;
     background-color: #ffff;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 20px;
     padding: 5px 40px 5px 40px; 
     font-weight: bold;
-
+    transition: 0.3s;
 }
 
 .cta-tickets {
     color: #ffffff;
-    background-color: #fb9b50;
+    background-color: #E67214;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 20px;
     padding: 5px 20px 5px 20px; 
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-tickets:hover,
+.cta_send:hover,
+.cta-back:hover,
+.cta_nav:hover
+ {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* Visit */
@@ -525,6 +544,7 @@ min-height: 500px;
 
 .visit-info>p {
     margin: 2px;
+    font-size: 18px;
 }
 
 .figure {
@@ -537,8 +557,12 @@ min-height: 500px;
     padding: 20px;
 }
 
+.visit-food-info>p {
+    font-size: 18px;
+}
+
 .visit_image {
-    width: 100%;
+    max-width: 100%;
     height: 557px;
 }
 
@@ -559,18 +583,23 @@ min-height: 500px;
 .contact-info-content {
     flex: 1;
     padding: 20px;
+    max-width: 500px;
 }
 
 .contact-info-content>p {
     padding-left: 10px;
+    font-size: 18px;
 }
 
 .contact-us-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     line-height: 1,8;
-    padding: 10px;
+    padding: 10px;  
+}
+
+.contact-us-container>label {
+    font-size: 17px;
 }
 
 .contact-img-container {
@@ -578,32 +607,35 @@ min-height: 500px;
 }
 
 .contact-image {
-    width: 100%;
-    height: 596px;
-
+    max-width: 100%;
+    height: 557px;
 }
 
 .contact-input-style {
     height: 150px;
 }
 
-input, textarea, select {
+input, 
+textarea, 
+select {
     border-radius: 5px;
     border: 1px solid;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .cta_send {
     margin-top: 15px; 
     border-radius: 20px;
     color: #ffffff;
-    background-color: #fb9b50;
+    background-color: #E67214;
     height: 40px;
     width: 110px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
+    transition: 0.3;
 }
 
 .fa-at,
@@ -628,21 +660,21 @@ input, textarea, select {
     padding-bottom: 20px;
  }
 
- .footer-heading {
+.footer-heading {
     font-size: 22px;
     margin-bottom: 10px;
     color: #00262D;
  }
     
- .help>ul {
+.help>ul {
     display: block;
     margin: 0;
     padding:0; 
     font-size: 20px;
  }
 
- li>a,
- .icon {
+li>a,
+.icon {
     text-decoration: none;
     color: #00262D;
     font-size: 20px;
@@ -689,44 +721,101 @@ input, textarea, select {
 
 }
 
+@media(max-width: 1000px){
+    .events-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .events-info,
+    .events-text {
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+    .visit-container,
+    .visit-food-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info-conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 984px) {
+    .nav-bottom {
+        display: inline-block;
+    }
+
+    .search {
+        margin-left: 30px;
+}
+    .cta_nav {
+        margin-left: 35px;  
+}
+}
+
 @media(max-width: 949px) {
     .exhibition-container, 
     .explore-container {
         display: flex;
         flex-direction: column;
         max-width: 500px;
+        margin: 0 auto;
     }
 }
-
-@media(max-width: 867px) {
-    .circle-conteiner {
-         flex-wrap: wrap;
-         margin: 0 auto;
+@media(max-width: 920px) {
+    .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
-    .exhibition-container, 
-    .explore-container {
-        margin: 0 auto;   
-    }
-    
-    }
-
-@media(max-width: 867px) {
+}
+   
+@media(max-width: 820px) {
     .events-container {
-        flex-direction: column;
+        display: block;
+        padding-bottom: 30px;
+        padding-top: 40px;   
     }
+
+    .events-info, 
+    .events-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .circle-container {
+        margin: 0 auto;
+    }
+
+    .gallery-heading,
+    .events-heading,
+    .exhibition-heading,
+    .explore-heading,
+    .contact-us-heading,
+    .visit-heading,
+    .explore {
+        font-size: 32px;
+        margin-bottom: 5px;
 }
 
-
-@media(max-width: 815px) {
-    .cta_nav {
-        margin-left: 30px;
-    }
+    .line-exhibition-heading, 
+    .line-explore-heading, 
+    .line-contact-heading, 
+    .line-visit-heading
+    .line-gallery-heading  {
+        width: 65%;
 }
 
-    .search {
-        flex-wrap: wrap;
-        margin-left: 30px;
+    .line-exhibition, 
+    .line-explore {
+        width: 65%;
+}
 }
 
 @media(max-width: 795px) {
@@ -736,10 +825,6 @@ input, textarea, select {
         margin-left: 30px;
         gap: 30px;
     }
-
-    .visit_image {
-        height: 500px;
-   }
 }
 
 @media(max-width: 699px) {
@@ -747,22 +832,38 @@ input, textarea, select {
     .hamburger-icon {
         display: inline-block; 
         padding-left: 10px; 
+       
     }
 
     #menu-checkbox:checked ~ .nav-bottom {
         display: block;
     }
 
+    .fa-solid, .fas {
+        font-size: 22px; 
+    }
+    .logo {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
     .nav-ul {
-        flex-wrap: wrap;
         display: block;
         background-color:#01a1b1;
         text-align: center;
-        margin-bottom: 0; 
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+
+    .nav, ul {
+        font-size: 18px;
     }
 
     nav a {
        color:#ffffff;
+       font-size: 18px;
     }
 
     .search, 
@@ -771,17 +872,42 @@ input, textarea, select {
         display: none;
     }
 
-    .events-info,
-    .events-container {
-        flex-direction: column;
-        margin-left: 30px;
-        margin-right: 30px; 
+    .banner-lare-text {
+        font-size: 42px;
     }
 
     .events-text {
-       flex-direction: column;
-
+        flex-direction: column;
     }
+
+    .gallery-heading,
+    .events-heading,
+    .exhibition-heading,
+    .explore-heading,
+    .contact-us-heading,
+    .visit-heading,
+    .explore {
+        font-size: 30px;
+        margin-bottom: 5px;
+}
+
+    .line-exhibition-heading, 
+    .line-explore-heading, 
+    .line-contact-heading, 
+    .line-visit-heading,
+    .line-gallery-heading {
+        width: 65%;
+}
+
+    .line-exhibition, 
+    .line-explore {
+        width: 65%;
+}
+
+    .visit-info>h2,
+    .visit-food-info>h2 {
+        font-size: 22px;
+}
 
     .info-container {
         display: grid;
@@ -790,7 +916,7 @@ input, textarea, select {
 
     .info-card {
         margin: 0 auto;
-        width: 500px;
+        width: 350px;
     }
 
     .welcome-container {
@@ -811,44 +937,69 @@ input, textarea, select {
         max-width: 400px;
     }
 
-    .events-text,    
-    .explore-text,
-    .exhibition-text {
-        font-size: 16px;
-   }
-
     .line-exhibition-container,
     .line-explore-container {
         display: none;
     }
 
-    .visit-container,
-    .visit-food-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contact-info-conteiner {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
-@media(max-width: 538px) {
-    .circle-container {
-        width: 250px;
-        height: 250px;  
-    }
     .welcome-heading {
         font-size: 24px;
     }
     .welcome-small-text {
-        font-size: 16px;
+        font-size: 18px;
         }
     }
     
 @media(max-width: 399px) {
+    .banner-text {
+        font-weight: 500;
+       
+    }
+    .circle-container {
+        margin: 0 auto;  
+        margin-top: 30px;
+}
+
+    .events-info,
+    .events-text {
+       flex: 0;
+}
+
+    .circle-text>h2,
+    .circle-text>h1 {
+        font-size: 22px;
+}
+
+    .line-events,
+    .events-info-line {
+        width: 92%;
+        margin-left: 0;
+}
+
+    .circle-text>p {
+        font-size: 16px;
+}
+
+    .events_heading,
+    .events-info>h2 {
+        font-size: 22px;
+}
+
+   .exhibition-text>h2
+   .explore-text>h2 {
+        font-size: 20px;
+}
+
+    .gallery-heading,
+    .events-heading,
+    .exhibition-heading,
+    .explore-heading,
+    .contact-us-heading,
+    .visit-heading,
+    .explore {
+        font-size: 26px;
+    }
+
     .events-text,    
     .explore-text,
     .exhibition-text {
@@ -859,20 +1010,54 @@ input, textarea, select {
         font-size: 16px;
    }
 
+   .welcome-small-text {
+        font-size: 16px;
+    }
+
+    .information-card>p {
+        font-size: 16px;
+    }
+
+    .fa-users, 
+    .fa-user, 
+    .fa-utensils, 
+    .fa-palette {
+        font-size: 18px;
+    }
+
    .visit_image {
         height: 400px;
    }
 
-   .fa-users, 
-   .fa-user, 
-   .fa-utensils, 
-   .fa-palette {
-       font-size-18px;
-   }
+   .visit-info>p {
+        margin: 2px;
+        font-size: 16px;
+}
 
-   .information-card>p {
-    font-size: 16px;
+   .visit-food-container>p {
+        font-size: 16px;
+}
+
+   .contact-info-content>p {
+        font-size: 16px;
+}
+
+   .contact-us-container>label {
+        font-size: 16px;
+}
+
+   .cta_send {
+        font-size: 16px;
+}
+
+   input, 
+   textarea, 
+   select {
+        font-size: 15px;
+}
+
+.footer-container {
+
    }
-     
 }
 
