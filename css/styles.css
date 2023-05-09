@@ -143,6 +143,8 @@ nav a {
     margin: 0 auto;
     background-color: #ffffff;
     padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
@@ -163,7 +165,6 @@ nav a {
     margin-left: 60px;
     margin-top: 40px;
     flex: 0 1 300px;
-
 }
 
 .circle-text {
@@ -261,7 +262,7 @@ nav a {
 
 .info_image {
     width: 100%;
-    height: 460px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -500,7 +501,7 @@ max-height: 600px;
 .cta-item {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     gap: 20px;
 }
 
@@ -529,8 +530,7 @@ max-height: 600px;
 .cta-tickets:hover,
 .cta_send:hover,
 .cta-back:hover,
-.cta_nav:hover
- {
+.cta_nav:hover {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -611,7 +611,7 @@ max-width: 500px;
 
 .contact-image {
     max-width: 100%;
-    height: 557px;
+    height: 694px;
     object-fit: cover;
 }
 
@@ -655,13 +655,12 @@ select {
 /* Footer */
 .footer-container {
     display: grid;
-    padding-top: 30px;
     grid-auto-flow: column;
     justify-content: center;
     gap: 10em;
     background-color: #ffff;
     color: #00262D;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
  }
 
 .footer-heading {
@@ -700,8 +699,9 @@ li>a,
 .line-footer {
     width: 90%;
     display: block;
-    border-top: 1px solid; 
-    margin-bottom: 30px;
+    border-top: 1px solid;
+    color:#E67214; 
+    margin-top: -20px;
 }
 
 
@@ -730,6 +730,8 @@ li>a,
         display: flex;
         flex-direction: column; 
         align-items: center; 
+        margin-left: 30px;
+        margin-right: 30px;
     }
     
     .events-info,
@@ -745,9 +747,18 @@ li>a,
         flex-direction: column;
     }
 
+    .visit_image {
+        height: 500px;
+        width: 494px;
+    }
+
     .contact-info-conteiner {
         display: flex;
         flex-direction: column;
+    }
+    .contact-image {
+        height: 500px;
+        width: 476px;
     }
 }
 
@@ -758,6 +769,7 @@ li>a,
 
     .search {
         margin-left: 30px;
+        width: 35%;
 }
     .cta_nav {
         margin-left: 35px;  
@@ -775,8 +787,8 @@ li>a,
 }
 @media(max-width: 920px) {
     .footer-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
    
@@ -816,9 +828,18 @@ li>a,
         width: 65%;
 }
 
+.line-visit-heading {
+   
+}
+
     .line-exhibition, 
     .line-explore {
         width: 65%;
+}
+
+   .cta-item {
+    justify-content: flex-start;
+     margin-left: 40px;  
 }
 }
 
@@ -826,8 +847,7 @@ li>a,
     .footer-container {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
-        gap: 30px;
+        gap: 0px;
     }
 }
 
@@ -859,10 +879,17 @@ li>a,
         margin-bottom: 0;
         padding-top: 10px;
         padding-bottom: 10px; 
+        min-height: 35vh;
+        margin-top: 5px;
+    }
+
+    .active {
+        color:#00262D;
     }
 
     .nav, ul {
-        font-size: 18px;
+        font-size: 30px;
+        padding-left: 0px;
     }
 
     nav a {
@@ -908,11 +935,6 @@ li>a,
         width: 65%;
 }
 
-    .visit-info>h2,
-    .visit-food-info>h2 {
-        font-size: 22px;
-}
-
     .info-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -949,9 +971,15 @@ li>a,
     .welcome-heading {
         font-size: 24px;
     }
+
     .welcome-small-text {
         font-size: 18px;
-        }
+    }
+
+    .visit-info>h2,
+    .visit-food-info>h2 {
+        font-size: 22px;
+    }
     }
     
 @media(max-width: 399px) {
@@ -961,8 +989,12 @@ li>a,
     }
     .circle-container {
         margin: 0 auto;  
-        width: 250px;
-        height: 250px;
+        width: 240px;
+        height: 240px;
+}
+
+    .text_card {
+        font-size: 22px;
 }
 
     .events-info,
@@ -982,6 +1014,10 @@ li>a,
 }
 
     .circle-text>p {
+        font-size: 16px;
+}
+
+   .cta_events {
         font-size: 16px;
 }
 
