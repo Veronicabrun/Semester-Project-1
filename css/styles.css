@@ -51,7 +51,6 @@ nav a {
 .active {
     text-decoration: underline;
     color: #E67214;
-   
 }
 
 .nav-bottom {
@@ -81,7 +80,7 @@ nav a {
     padding: 5px 25px 5px 25px;
     margin-right: 70px;
     margin-bottom: 15px;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .banner-img-container {
@@ -188,8 +187,7 @@ nav a {
     flex: 0 1 400px;
     margin-top: 60px;
     font-size: 19px;
-    font-weight: 900px;
-  
+    font-weight: 900px; 
 }
 
 .events-info>h2,
@@ -258,7 +256,7 @@ nav a {
     display: block; 
     border-top: 1px solid;
     margin-bottom: 60px;
- }
+}
 
 .info_image {
     width: 100%;
@@ -289,8 +287,7 @@ nav a {
     padding: 20px 50px 20px 50px;
     font-size: 18px;
     background-color: rgba(1,161,177,.2);
-    max-height: 600px;
-    
+    max-height: 600px;   
 }
 
 .left-container>h5 {
@@ -322,7 +319,7 @@ nav a {
     display: flex;
     flex-direction: column;
     flex: 1;
-max-height: 600px;
+    max-height: 600px;
 }
 
 .about-us_image {
@@ -464,7 +461,6 @@ max-height: 600px;
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
-  
     justify-content: center;
     padding: 40px 50px 40px 50px;
     font-size: 18px;
@@ -542,6 +538,10 @@ max-height: 600px;
     margin: 0 auto;
 }
 
+.closed {
+    color:#E67214;
+}
+
 .visit-info>p {
     margin: 2px;
     font-size: 18px;
@@ -576,6 +576,14 @@ max-height: 600px;
     margin-bottom: 30px; 
 }
 
+.cta-item-visit,
+.cta-item-contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
 /* Contact */
 .contact-info-conteiner {
     display: flex;
@@ -586,7 +594,7 @@ max-height: 600px;
 .contact-info-content {
     flex: 1;
     padding: 20px;
-max-width: 500px;
+    max-width: 500px;
 }
 
 .contact-info-content>p {
@@ -725,7 +733,7 @@ li>a,
 
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1000px) {
     .events-container {
         display: flex;
         flex-direction: column; 
@@ -739,7 +747,7 @@ li>a,
         margin-top: 0px;
         padding-left: 50px;
         padding-right: 50px;
-}
+    }
 
     .visit-container,
     .visit-food-container {
@@ -770,10 +778,10 @@ li>a,
     .search {
         margin-left: 30px;
         width: 35%;
-}
+    }
     .cta_nav {
         margin-left: 35px;  
-}
+    }
 }
 
 @media(max-width: 949px) {
@@ -785,6 +793,7 @@ li>a,
         margin: 0 auto;
     }
 }
+
 @media(max-width: 920px) {
     .footer-container {
         padding-left: 40px;
@@ -818,29 +827,33 @@ li>a,
     .explore {
         font-size: 32px;
         margin-bottom: 5px;
-}
+    }
 
     .line-exhibition-heading, 
     .line-explore-heading, 
     .line-contact-heading, 
-    .line-visit-heading
+    .line-visit-heading,
     .line-gallery-heading  {
         width: 65%;
-}
-
-.line-visit-heading {
-   
-}
+    }
 
     .line-exhibition, 
     .line-explore {
         width: 65%;
-}
+    }
 
    .cta-item {
-    justify-content: flex-start;
+    justify-content: center;
      margin-left: 40px;  
-}
+    }
+
+.cta-item-visit,
+.cta-item-contact {
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    }
+
 }
 
 @media(max-width: 795px) {
@@ -920,7 +933,7 @@ li>a,
     .explore {
         font-size: 30px;
         margin-bottom: 5px;
-}
+    }
 
     .line-exhibition-heading, 
     .line-explore-heading, 
@@ -928,12 +941,12 @@ li>a,
     .line-visit-heading,
     .line-gallery-heading {
         width: 65%;
-}
+    }
 
     .line-exhibition, 
     .line-explore {
         width: 65%;
-}
+    }
 
     .info-container {
         display: grid;
@@ -980,56 +993,56 @@ li>a,
     .visit-food-info>h2 {
         font-size: 22px;
     }
-    }
+}
     
 @media(max-width: 399px) {
     .banner-text {
-        font-weight: 500;
-       
+        font-weight: 500;  
     }
+
     .circle-container {
         margin: 0 auto;  
         width: 240px;
         height: 240px;
-}
+    }
 
     .text_card {
         font-size: 22px;
-}
+    }
 
     .events-info,
     .events-text {
        flex: 0;
-}
+    }
 
     .circle-text>h2,
     .circle-text>h1 {
         font-size: 22px;
-}
+    }
 
     .line-events,
     .events-info-line {
         width: 92%;
         margin-left: 0;
-}
+    }
 
     .circle-text>p {
         font-size: 16px;
-}
+    }
 
    .cta_events {
         font-size: 16px;
-}
+    }
 
     .events_heading,
     .events-info>h2 {
         font-size: 22px;
-}
+    }
 
    .exhibition-text>h2
    .explore-text>h2 {
         font-size: 20px;
-}
+    }
 
     .gallery-heading,
     .events-heading,
@@ -1066,39 +1079,50 @@ li>a,
         font-size: 18px;
     }
 
-   .visit_image {
+    .visit_image {
         height: 400px;
-   }
+    }
 
    .visit-info>p {
         margin: 2px;
         font-size: 16px;
-}
+    }
 
    .visit-food-container>p {
         font-size: 16px;
-}
+    }
+
+    .line-visit-heading {
+        width: 90%;
+    }
+
+    .cta-item-visit,
+    .cta-item-contact {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+   .cta-item {
+        margin-left: 0;
+    }
 
    .contact-info-content>p {
         font-size: 16px;
-}
+    }
 
    .contact-us-container>label {
         font-size: 16px;
-}
+    }
 
    .cta_send {
         font-size: 16px;
-}
+    }
 
    input, 
    textarea, 
    select {
         font-size: 15px;
-}
+    }
 
-.footer-container {
-
-   }
 }
 
