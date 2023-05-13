@@ -831,8 +831,7 @@ li>a,
     }
 
     .cta-item {
-        justify-content: center;
-        margin-left: 40px;  
+        justify-content: center; 
     }
 
     .cta-item-visit,
