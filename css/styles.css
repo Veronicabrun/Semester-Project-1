@@ -95,7 +95,7 @@ nav a {
 
 .banner-container {
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
     position: absolute;
     top: 100px;  
 }
@@ -121,7 +121,7 @@ nav a {
     color:#ffffff;
     font-size: 18px;
     line-height: 1,5rem;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .cta-banner {
@@ -157,12 +157,9 @@ nav a {
     height: 300px;
     background-color:#01a1b1;
     color:#ffffff;
-    margin-bottom: 30px;
     text-align: center;
     position: relative;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-top: 40px;
+    margin: 40px 60px 30px 60px;
     flex: 0 1 300px;
 }
 
@@ -200,8 +197,8 @@ nav a {
     width: 100%;
     display: block;
     border-top: 1px solid;
-    margin-bottom: 5px;
     border-color:#01a1b1;
+    margin-bottom: 5px;
 }
 
 .cta_events {
@@ -290,18 +287,12 @@ nav a {
     max-height: 600px;   
 }
 
-.left-container>h5 {
-    font-size: 36px;
-    font-weight: bold;
-    color:#E67214; 
-    margin-top: 10px;  
-}
-
+.left-container>h5,
 .welcome-text {
     font-size: 36px;
     font-weight: bold;
     color:#E67214; 
-    margin-top: 10px;   
+    margin-top: 10px;  
 }
 
 .welcome-small-text {
@@ -396,11 +387,7 @@ nav a {
 .gallery-container {
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-top: 0px;
+    padding: 0px 30px 30px 30px;
 }
 
 .gallery-img {
@@ -680,7 +667,7 @@ select {
 .help>ul {
     display: block;
     margin: 0;
-    padding:0; 
+    padding: 0; 
     font-size: 20px;
  }
 
@@ -729,8 +716,7 @@ li>a,
     .welcome-container {
         display: flex;
         flex-direction: column;      
-}
-
+    }
 }
 
 @media(max-width: 1000px) {
@@ -764,6 +750,7 @@ li>a,
         display: flex;
         flex-direction: column;
     }
+
     .contact-image {
         height: 500px;
         width: 476px;
@@ -779,6 +766,7 @@ li>a,
         margin-left: 30px;
         width: 35%;
     }
+
     .cta_nav {
         margin-left: 35px;  
     }
@@ -833,7 +821,7 @@ li>a,
     .line-explore-heading, 
     .line-contact-heading, 
     .line-visit-heading,
-    .line-gallery-heading  {
+    .line-gallery-heading {
         width: 65%;
     }
 
@@ -842,18 +830,17 @@ li>a,
         width: 65%;
     }
 
-   .cta-item {
-    justify-content: center;
-     margin-left: 40px;  
+    .cta-item {
+        justify-content: center;
+        margin-left: 40px;  
     }
 
-.cta-item-visit,
-.cta-item-contact {
-    justify-content: flex-start;
-    margin-bottom: 30px;
-    margin-left: 40px;
+    .cta-item-visit,
+    .cta-item-contact {
+        justify-content: flex-start;
+        margin-bottom: 30px;
+        margin-left: 40px;
     }
-
 }
 
 @media(max-width: 795px) {
@@ -865,11 +852,9 @@ li>a,
 }
 
 @media(max-width: 699px) {
-    
     .hamburger-icon {
         display: inline-block; 
-        padding-left: 10px; 
-       
+        padding-left: 10px;    
     }
 
     #menu-checkbox:checked ~ .nav-bottom {
@@ -879,6 +864,7 @@ li>a,
     .fa-solid, .fas {
         font-size: 22px; 
     }
+
     .logo {
         font-size: 25px;
         padding-left: 15px;
@@ -958,22 +944,9 @@ li>a,
         width: 350px;
     }
 
-    .welcome-container {
-        display: flex;
-        flex-direction: column;
-       
-    }
-
     .gallery-container {
         display: grid;
         grid-template-columns: 1fr;  
-    }
-
-    .exhibition-container, 
-    .explore-container {
-        display: flex;
-        flex-direction: column;
-        max-width: 400px;
     }
 
     .line-exhibition-container,
@@ -994,7 +967,15 @@ li>a,
         font-size: 22px;
     }
 }
-    
+
+@media(max-width: 425px) {
+    .events-text,    
+    .explore-text,
+    .exhibition-text {
+        font-size: 16px;
+   }
+}
+  
 @media(max-width: 399px) {
     .banner-text {
         font-weight: 500;  
@@ -1039,8 +1020,8 @@ li>a,
         font-size: 22px;
     }
 
-   .exhibition-text>h2
-   .explore-text>h2 {
+    .exhibition-text>h2
+    .explore-text>h2 {
         font-size: 20px;
     }
 
@@ -1054,17 +1035,11 @@ li>a,
         font-size: 24px;
     }
 
-    .events-text,    
-    .explore-text,
-    .exhibition-text {
-        font-size: 16px;
-   }
-
     .events-info>p {
         font-size: 16px;
    }
 
-   .welcome-small-text {
+    .welcome-small-text {
         font-size: 16px;
     }
 
@@ -1083,12 +1058,12 @@ li>a,
         height: 400px;
     }
 
-   .visit-info>p {
+    .visit-info>p {
         margin: 2px;
         font-size: 16px;
     }
 
-   .visit-food-container>p {
+    .visit-food-container>p {
         font-size: 16px;
     }
 
@@ -1102,27 +1077,32 @@ li>a,
         margin-left: 0;
     }
 
-   .cta-item {
+    .cta-item {
         margin-left: 0;
     }
 
-   .contact-info-content>p {
+    .contact-info-content>p {
         font-size: 16px;
     }
 
-   .contact-us-container>label {
+    .contact-us-container>label {
         font-size: 16px;
     }
 
-   .cta_send {
+    .cta_send {
         font-size: 16px;
     }
 
-   input, 
-   textarea, 
-   select {
+    input, 
+    textarea, 
+    select {
         font-size: 15px;
     }
+}
 
+@media(max-width: 375px) {
+    .logo {
+        font-size: 24px;
+    }
 }
 
