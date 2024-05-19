@@ -29,9 +29,9 @@ The website was developed using semantic HTML and DRY CSS principles to ensure a
 Netlify: https://eclectic-starlight-157592.netlify.app/
 
 ## Contact
-vbpedersen@outlook.com
+Email: vbpedersen@outlook.com
 
-linkedin.com/in/veronica-brun-pedersen-2860bb249
+Linkedin: linkedin.com/in/veronica-brun-pedersen-2860bb249
 
 ## Getting Started
 
@@ -41,8 +41,8 @@ To get started with this project, follow these steps:
 
 1. Clone the repository by running the following command in your terminal:
    ```bash
-   git clone https://github.com/your-username/community-science-museum.git
+   git clone https://github.com/Veronicabrun/Semester-Project-1.git
 
 2. Once the repository is cloned, navigate to the project directory:
    ```bash
-   cd community-science-museum
+   cd Semester-Project-1
