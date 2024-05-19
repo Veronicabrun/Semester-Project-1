@@ -31,7 +31,7 @@ Netlify: https://eclectic-starlight-157592.netlify.app/
 ## Contact
 Email: vbpedersen@outlook.com
 
-Linkedin: linkedin.com/in/veronica-brun-pedersen-2860bb249
+Linkedin: [LinkedIn](https://linkedin.com/in/veronica-brun-pedersen-2860bb249)
 
 ## Getting Started
 
