@@ -41,8 +41,20 @@ To get started with this project, follow these steps:
 
 1. Clone the repository by running the following command in your terminal:
    ```bash
-   git clone https://github.com/Veronicabrun/Semester-Project-1.git
+    git clone https://github.com/Veronicabrun/Semester-Project-1.git
+ 
 
 2. Once the repository is cloned, navigate to the project directory:
    ```bash
    cd Semester-Project-1
+   
+3. Install the dependencies:
+   ```bash
+   npm install
+
+### Running
+To run the app, use the following command:
+ ```bash
+
+   npm run start
+
