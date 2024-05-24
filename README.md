@@ -8,7 +8,7 @@
 This project is part of a course assignment to create a website for the Community Science Museum, an interactive science museum targeting primary and middle school children (ages 7-15) and families with young children. The website aims to be informative, engaging, and encourages visitors to explore the museum.
 
 - Home
-- Exhibits
+- Exhibition
 - Events
 - About 
 - Contact
