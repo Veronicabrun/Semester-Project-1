@@ -31,7 +31,7 @@ The website was developed using semantic HTML and DRY CSS principles to ensure a
 
 ## Link
 
-Netlify: https://eclectic-starlight-157592.netlify.app/
+**Netlify:** https://eclectic-starlight-157592.netlify.app/
 
 ## Contact
 Feel free to reach out to me for any inquiries or collaboration opportunities:
