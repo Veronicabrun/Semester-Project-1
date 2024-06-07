@@ -34,10 +34,10 @@ The website was developed using semantic HTML and DRY CSS principles to ensure a
 Netlify: https://eclectic-starlight-157592.netlify.app/
 
 ## Contact
-Email: vbpedersen@outlook.com
-
-Linkedin: [LinkedIn](https://linkedin.com/in/veronica-brun-pedersen-2860bb249)
-
+Feel free to reach out to me for any inquiries or collaboration opportunities:
+- **Email:** [vbpedersen@outlook.com](mailto:your-email@example.com)
+- **LinkedIn:** [LinkedIn](https://linkedin.com/in/veronica-brun-pedersen-2860bb249)
+  
 ## Getting Started
 
 ### Installing
