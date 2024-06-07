@@ -9,13 +9,13 @@ This project is part of a course assignment to create a website for the Communit
 
 ## Requrements for pages
 
-Home
-List of jackets
-A jacket specific page, showing product details such as description, price and an add to cart button
-A checkout page
-A checkout completed page
-About
-Contact
+- Home
+- List of jackets
+- A jacket specific page, showing product details such as description, price and an add to cart button
+- A checkout page
+- A checkout completed page
+- About
+- Contact
 
 ## Built With
 
