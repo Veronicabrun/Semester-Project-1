@@ -7,11 +7,15 @@
 ## Description
 This project is part of a course assignment to create a website for the Community Science Museum, an interactive science museum targeting primary and middle school children (ages 7-15) and families with young children. The website aims to be informative, engaging, and encourages visitors to explore the museum.
 
-- Home
-- Exhibition
-- Events
-- About 
-- Contact
+## Requrements for pages
+
+Home
+List of jackets
+A jacket specific page, showing product details such as description, price and an add to cart button
+A checkout page
+A checkout completed page
+About
+Contact
 
 ## Built With
 
